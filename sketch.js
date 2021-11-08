@@ -105,8 +105,8 @@ function draw() {
 }
 
 /*Descomentar el el bloque de código if correcto para 
-destruir el globo azuloy the blue balloon when hit 
-by the arrows */
+destruir el globo azul al ser  
+golpeado por las flechas */
 
 //  if (arrowGroup.isTouching(blueB)) {
 //   blueB.destroyEach();
@@ -134,7 +134,7 @@ if (arrowGroup.isTouching(pinkB)) {
  }
   
   drawSprites();
-  text("Score: "+ score, 300,50);
+  text("Puntuación: "+ score, 300,50);
 }
 
 
@@ -175,7 +175,7 @@ function pinkBalloon() {
 }
 
 
-// Creating  arrows for bow
+//crear las flechas para el arco
  function createArrow() {
   var arrow= createSprite(100, 100, 60, 10);
   arrow.addImage(arrowImage);
