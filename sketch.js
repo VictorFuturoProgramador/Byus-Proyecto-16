@@ -63,7 +63,7 @@ function draw() {
     
   }
   
-  //creating continous enemies
+  //crear enemigos continuos
   var select_balloon = Math.round(random(1,4));
   
   if (World.frameCount % 100 == 0) {
@@ -80,9 +80,9 @@ function draw() {
     }
   }
 
-  /*Uncomment correct statement so that 
-  game goes to "END" state 
-  when red balloon is hit*/
+  /*Descomentar la sentencia correcta para que 
+  el juego cambie a estado "END" 
+  al golpear el globo rojo*/
   //if (arrowGroup.isTouching(redB)) 
   //if (arrowGroup.Collide(redB)) 
   //if (arrowGroup.isCollide(redB)) 
@@ -104,8 +104,8 @@ function draw() {
   score=score+3;
 }
 
-/*Uncomment correct if block to 
-destroy the blue balloon when hit 
+/*Descomentar el el bloque de código if correcto para 
+destruir el globo azuloy the blue balloon when hit 
 by the arrows */
 
 //  if (arrowGroup.isTouching(blueB)) {
